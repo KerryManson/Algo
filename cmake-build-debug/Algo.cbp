@@ -90,6 +90,9 @@
 		<Unit filename="/Users/apple/CLionProjects/Algo/main.cpp">
 			<Option target="Algo"/>
 		</Unit>
+		<Unit filename="/Users/apple/CLionProjects/Algo/shellSort.h">
+			<Option target="Algo"/>
+		</Unit>
 		<Unit filename="/Users/apple/CLionProjects/Algo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -5,4 +5,5 @@ CMakeFiles/Algo.dir/main.cpp.o: ../InsertSort.h
 CMakeFiles/Algo.dir/main.cpp.o: ../SelectSort.h
 CMakeFiles/Algo.dir/main.cpp.o: ../SortHelper.h
 CMakeFiles/Algo.dir/main.cpp.o: ../main.cpp
+CMakeFiles/Algo.dir/main.cpp.o: ../shellSort.h
 
