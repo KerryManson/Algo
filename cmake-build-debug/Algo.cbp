@@ -78,6 +78,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/apple/CLionProjects/Algo/InsertSort.h">
+			<Option target="Algo"/>
+		</Unit>
+		<Unit filename="/Users/apple/CLionProjects/Algo/SelectSort.h">
+			<Option target="Algo"/>
+		</Unit>
+		<Unit filename="/Users/apple/CLionProjects/Algo/SortHelper.h">
+			<Option target="Algo"/>
+		</Unit>
 		<Unit filename="/Users/apple/CLionProjects/Algo/main.cpp">
 			<Option target="Algo"/>
 		</Unit>
