@@ -28,4 +28,20 @@ void InsertSort(T arr[],int n){
     }
 
 }
+
+template<typename T>
+void InsertSortInMerge(T arr[],int l,int r){
+
+    for (int i = l; i <r+1; ++i) {
+        int MidlleNum = arr[l+i];
+        int j;
+        for (j = i; arr[j-1]> MidlleNum && j>l; j--) {
+            arr[j] =arr[j-1];
+        }
+        arr[j] = MidlleNum;
+
+    }
+}
+
+
 #endif //ALGO_INSERTSORT_H

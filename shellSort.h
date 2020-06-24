@@ -13,16 +13,16 @@ template<typename T>
         }
 
     while (h>=1){
-        cout << "h:" << h <<endl;
+        //cout << "h:" << h <<endl;
         for (int j = h; j <n ; ++j) {
             int current = arr[j];
-            cout << "current:" << current << endl;
+            //cout << "current:" << current << endl;
             int i;
             for (i = j; i >=h && current<arr[i-h] ; i -=h) {
                 arr[i] = arr[i-h];
                 }
             arr[i] = current;
-            SortTestHelper::printArray(arr,n);
+            //SortTestHelper::printArray(arr,n);
             }
         h /= 3;
 

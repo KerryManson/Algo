@@ -1,16 +1,21 @@
 #include <iostream>
 #include "SortHelper.h"
-#include "SelectSort.h"
-#include "InsertSort.h"
+#include "selectSort.h"
+#include "insertSort.h"
 #include "shellSort.h"
-
+#include "mergeSort.h"
 
 
 int main() {
-    int n =10;
-    int *arr = SortTestHelper::generateNearOrderArray(n,10 );
+    int n =100000;
+    int *arr = SortTestHelper::generateRandomArray(n,1,n);
     int *arr2 =SortTestHelper::copyIntArray(arr,n);
-    SortTestHelper::testSort("InsertSort",InsertSort,arr2,n);
+    int *arr3 = SortTestHelper::copyIntArray(arr,n);
+    int *arr4 = SortTestHelper::copyIntArray(arr,n);
+    //SortTestHelper::printArray(arr,n);
+    SortTestHelper::testSort("mergeSort",MergeSort,arr4,n);
+    SortTestHelper::testSort("selectSort",SelectSort,arr3,n);
+    SortTestHelper::testSort("insertSort",InsertSort,arr2,n);
     SortTestHelper::testSort("shellSort",ShellSort,arr,n);
     //SortTestHelper::printArray(arr,n);
 
